@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hair Play Coiffure — Salon de coiffure et Barber Shop premium à Sarcelles. Expertise multi-textures, dégradés américains, lissages haut de gamme, soins moléculaires et designs tribaux depuis 2013.">
+    <meta name="keywords" content="coiffeur sarcelles, barber shop sarcelles, lissage brésilien, dégradé américain, coiffure afro, soins capillaires, Hair Play Coiffure">
+    <meta name="author" content="Hair Play Coiffure">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Hair Play Coiffure — L'Art Capillaire Premium à Sarcelles">
+    <meta property="og:description" content="Salon de coiffure et Barber Shop d'exception. Expertise multi-textures, rituels de soins moléculaires et créations artistiques depuis 2013.">
+    <meta property="og:type" content="website">
+    <title>Hair Play Coiffure — Salon Premium & Barber Shop à Sarcelles</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- NAVIGATION                                         -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <header id="navbar" class="navbar">
+        <nav class="navbar__inner container">
+            <a href="#" class="navbar__logo" aria-label="Hair Play Coiffure — Accueil">
+                <span class="navbar__logo-icon"><i class="ti ti-scissors"></i></span>
+                <span class="navbar__logo-text">Hair Play <span class="gold">Coiffure</span></span>
+            </a>
+
+            <ul class="navbar__links" id="nav-links">
+                <li><a href="#espace" class="navbar__link">Nos Espaces</a></li>
+                <li><a href="#tarifs" class="navbar__link">Tarifs</a></li>
+                <li><a href="#realisations" class="navbar__link">Réalisations</a></li>
+                <li><a href="#philosophie" class="navbar__link">Philosophie</a></li>
+                <li><a href="#temoignages" class="navbar__link">Avis Clients</a></li>
+            </ul>
+
+            <a href="tel:0134190106" class="btn btn--primary navbar__cta" id="nav-cta">
+                <i class="ti ti-calendar-event"></i>
+                <span>Prendre Rendez-vous</span>
+            </a>
+
+            <button class="navbar__burger" id="nav-burger" aria-label="Menu de navigation" aria-expanded="false">
+                <span class="navbar__burger-line"></span>
+                <span class="navbar__burger-line"></span>
+                <span class="navbar__burger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile nav overlay -->
+    <div class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav__links">
+            <li><a href="#espace" class="mobile-nav__link">Nos Espaces</a></li>
+            <li><a href="#tarifs" class="mobile-nav__link">Tarifs</a></li>
+            <li><a href="#realisations" class="mobile-nav__link">Réalisations</a></li>
+            <li><a href="#philosophie" class="mobile-nav__link">Philosophie</a></li>
+            <li><a href="#temoignages" class="mobile-nav__link">Avis Clients</a></li>
+            <li>
+                <a href="tel:0134190106" class="btn btn--primary mobile-nav__cta">
+                    <i class="ti ti-calendar-event"></i>
+                    <span>Prendre Rendez-vous</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- HERO SECTION                                       -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section id="hero" class="hero">
+        <canvas id="particle-canvas" class="hero__canvas"></canvas>
+        <div class="hero__overlay"></div>
+
+        <div class="hero__content container">
+            <div class="hero__badge reveal" data-reveal>
+                <i class="ti ti-award"></i>
+                <span>Depuis 2013 — L'excellence capillaire à Sarcelles</span>
+            </div>
+
+            <h1 class="hero__title reveal" data-reveal>
+                L'Art du <span class="gold">Style</span><br>
+                Sublimé à la <span class="gold">Perfection</span>
+            </h1>
+
+            <p class="hero__subtitle reveal" data-reveal>
+                Salon de coiffure premium et Barber Shop d'exception au cœur de Sarcelles.
+                Expertise multi-textures — cheveux Afro, Maghrébins et Européens —
+                rituels de soins moléculaires, lissages haut de gamme et dégradés millimétrés.
+            </p>
+
+            <div class="hero__actions reveal" data-reveal>
+                <a href="tel:0134190106" class="btn btn--primary btn--lg">
+                    <i class="ti ti-calendar-event"></i>
+                    <span>Prendre Rendez-vous</span>
+                </a>
+                <a href="#tarifs" class="btn btn--outline btn--lg">
+                    <i class="ti ti-list-details"></i>
+                    <span>Découvrir les Tarifs</span>
+                </a>
+            </div>
+
+            <div class="hero__stats reveal" data-reveal>
+                <div class="hero__stat">
+                    <span class="hero__stat-number" data-count="13">0</span>
+                    <span class="hero__stat-label">Ans d'Histoire</span>
+                </div>
+                <div class="hero__stat">
+                    <span class="hero__stat-number" data-count="2">0</span>
+                    <span class="hero__stat-label">Espaces Dédiés</span>
+                </div>
+                <div class="hero__stat">
+                    <span class="hero__stat-prefix">+</span>
+                    <span class="hero__stat-number" data-count="10">0</span>
+                    <span class="hero__stat-suffix">k</span>
+                    <span class="hero__stat-label">Clients Satisfaits</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__scroll-indicator">
+            <span class="hero__scroll-text">Défiler</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- SERVICES / ESPACES                                 -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section id="espace" class="section services">
+        <div class="container">
+            <div class="section__header reveal" data-reveal>
+                <span class="section__tag"><i class="ti ti-sparkles"></i> Nos Pôles d'Expertise</span>
+                <h2 class="section__title">Trois Univers, <span class="gold">Une Passion</span></h2>
+                <p class="section__desc">
+                    Chaque espace de Hair Play Coiffure est un sanctuaire dédié à une discipline capillaire.
+                    Nos artisans-coiffeurs maîtrisent l'art de sublimer toutes les textures, toutes les envies.
+                </p>
+            </div>
+
+            <div class="services__grid">
+                <!-- Card 1: Visagisme -->
+                <article class="service-card reveal" data-reveal>
+                    <div class="service-card__icon-wrap">
+                        <i class="ti ti-palette service-card__icon"></i>
+                    </div>
+                    <h3 class="service-card__title">Visagisme &<br>Haute Couleur</h3>
+                    <p class="service-card__desc">
+                        Notre espace féminin est un atelier de création où chaque coupe est pensée comme une
+                        œuvre de visagisme. Balayages californiens, colorations botaniques, mèches ombrées :
+                        nos coloristes certifiés sculptent la lumière dans vos cheveux avec des produits
+                        professionnels sans ammoniaque, respectueux de la fibre capillaire.
+                    </p>
+                    <a href="#tarifs" class="service-card__link">
+                        <span>Explorer les prestations</span>
+                        <i class="ti ti-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Card 2: Barber Shop -->
+                <article class="service-card reveal" data-reveal>
+                    <div class="service-card__icon-wrap">
+                        <i class="ti ti-razor service-card__icon"></i>
+                    </div>
+                    <h3 class="service-card__title">Barber Shop &<br>Tracés Artistiques</h3>
+                    <p class="service-card__desc">
+                        Notre Barber Shop est le repaire des hommes exigeants. Dégradés américains (Fades)
+                        millimétrés au 0.5, designs tribaux gravés au rasoir, barbes sculptées à la perfection.
+                        Nos barbers fusionnent la tradition du rasage à l'ancienne avec les tendances les plus
+                        pointues du streetwear capillaire mondial.
+                    </p>
+                    <a href="#tarifs" class="service-card__link">
+                        <span>Explorer les prestations</span>
+                        <i class="ti ti-arrow-right"></i>
+                    </a>
+                </article>
+
+                <!-- Card 3: Soins Moléculaires -->
+                <article class="service-card reveal" data-reveal>
+                    <div class="service-card__icon-wrap">
+                        <i class="ti ti-flask service-card__icon"></i>
+                    </div>
+                    <h3 class="service-card__title">Soins Moléculaires &<br>Afro-Expertise</h3>
+                    <p class="service-card__desc">
+                        Nous proposons des rituels de soins à la pointe de la technologie capillaire : lissages
+                        au Tannin, lissages Brésiliens à la kératine, botox capillaire restructurant.
+                        Notre expertise Afro est reconnue : diagnostic de porosité, hydratation profonde,
+                        définition de boucles et transitions naturelles en douceur.
+                    </p>
+                    <a href="#tarifs" class="service-card__link">
+                        <span>Explorer les prestations</span>
+                        <i class="ti ti-arrow-right"></i>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- PRICING / TARIFS                                   -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section id="tarifs" class="section pricing">
+        <div class="container">
+            <div class="section__header reveal" data-reveal>
+                <span class="section__tag"><i class="ti ti-receipt"></i> Grille Tarifaire</span>
+                <h2 class="section__title">Des Prestations <span class="gold">d'Exception</span></h2>
+                <p class="section__desc">
+                    Transparence et excellence : découvrez nos tarifs détaillés pour chaque univers.
+                    Chaque prestation inclut un diagnostic personnalisé et des produits professionnels haut de gamme.
+                </p>
+            </div>
+
+            <!-- Tabs Navigation -->
+            <div class="pricing__tabs reveal" data-reveal>
+                <button class="pricing__tab active" data-tab="femmes" id="tab-femmes">
+                    <i class="ti ti-woman"></i>
+                    <span>Espace Femmes</span>
+                </button>
+                <button class="pricing__tab" data-tab="hommes" id="tab-hommes">
+                    <i class="ti ti-man"></i>
+                    <span>Espace Hommes / Barber</span>
+                </button>
+                <button class="pricing__tab" data-tab="soins" id="tab-soins">
+                    <i class="ti ti-plant-2"></i>
+                    <span>Rituels de Soins</span>
+                </button>
+            </div>
+
+            <!-- Tab Panels -->
+            <div class="pricing__panels">
+
+                <!-- Panel: Femmes -->
+                <div class="pricing__panel active" id="panel-femmes" data-panel="femmes">
+                    <ul class="pricing__list">
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coupe Femme + Brushing</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">35€</span>
+                            </div>
+                            <p class="pricing__item-desc">Consultation visagisme, shampooing soin, coupe sur-mesure et brushing professionnel lisse ou bouclé.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Brushing Seul</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">20€</span>
+                            </div>
+                            <p class="pricing__item-desc">Shampooing revitalisant et mise en forme au séchoir avec soin thermoprotecteur inclus.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coloration Complète</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 45€</span>
+                            </div>
+                            <p class="pricing__item-desc">Coloration professionnelle ton sur ton ou couvrante, enrichie en agents hydratants. Couleurs vibrantes et durables.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Balayage / Mèches</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 55€</span>
+                            </div>
+                            <p class="pricing__item-desc">Technique de balayage à main levée ou mèches papier pour un effet soleil naturel, lumineux et multidimensionnel.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coupe + Coloration + Brushing</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 70€</span>
+                            </div>
+                            <p class="pricing__item-desc">Forfait complet : diagnostic couleur, coupe restructurante, coloration premium et finition brushing soigné.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Chignon / Coiffure Événementielle</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 40€</span>
+                            </div>
+                            <p class="pricing__item-desc">Coiffure élaborée pour mariage, gala ou cérémonie. Essai préalable disponible sur rendez-vous.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coupe Enfant Fille (–12 ans)</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">18€</span>
+                            </div>
+                            <p class="pricing__item-desc">Coupe adaptée aux cheveux fins des enfants, shampooing doux et séchage délicat inclus.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Maquillage Professionnel</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 35€</span>
+                            </div>
+                            <p class="pricing__item-desc">Mise en beauté naturelle ou sophistiquée avec des produits professionnels longue tenue haute définition.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Panel: Hommes / Barber -->
+                <div class="pricing__panel" id="panel-hommes" data-panel="hommes">
+                    <ul class="pricing__list">
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coupe Classique Homme</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">15€</span>
+                            </div>
+                            <p class="pricing__item-desc">Coupe aux ciseaux ou tondeuse, shampooing et coiffage. Le classique, exécuté avec précision.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Dégradé Américain (Fade)</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">20€</span>
+                            </div>
+                            <p class="pricing__item-desc">Low, Mid ou High Fade exécuté au 0.5mm. Transition millimétrique impeccable, finition au rasoir.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Dégradé + Design Tribal</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">25€</span>
+                            </div>
+                            <p class="pricing__item-desc">Fade personnalisé complété par un tracé artistique (lignes, motifs géométriques, logos) gravé au rasoir.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Barbe Sculptée</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">10€</span>
+                            </div>
+                            <p class="pricing__item-desc">Taille, sculpture et contours nets au rasoir coupe-choux. Soin barbe hydratant et serviette chaude inclus.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coupe + Barbe Complète</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">25€</span>
+                            </div>
+                            <p class="pricing__item-desc">Forfait gentleman : coupe au choix, barbe sculptée et rituel serviette chaude pour un résultat impeccable.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Rasage Traditionnel</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">15€</span>
+                            </div>
+                            <p class="pricing__item-desc">Rasage intégral à l'ancienne au coupe-choux, serviette chaude, baume après-rasage apaisant premium.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coloration Homme</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 20€</span>
+                            </div>
+                            <p class="pricing__item-desc">Coloration discrète ou couverture barbe & cheveux blancs. Résultat naturel et durable garanti.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Coupe Enfant Garçon (–12 ans)</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">12€</span>
+                            </div>
+                            <p class="pricing__item-desc">Coupe classique ou dégradé adapté aux plus jeunes. Ambiance fun et bienveillante garantie.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Panel: Rituels de Soins -->
+                <div class="pricing__panel" id="panel-soins" data-panel="soins">
+                    <ul class="pricing__list">
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Diagnostic Capillaire Complet</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Offert</span>
+                            </div>
+                            <p class="pricing__item-desc">Analyse complète de la fibre, du cuir chevelu et de la porosité. Plan de soin personnalisé établi avant chaque traitement.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Soin Moléculaire Intense</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 35€</span>
+                            </div>
+                            <p class="pricing__item-desc">Reconstruction fibre par fibre à base d'acides aminés et de protéines de soie. Cheveux renforcés, brillants et soyeux.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Rituel Hydratation Afro</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 40€</span>
+                            </div>
+                            <p class="pricing__item-desc">Bain d'huiles précieuses (argan, jojoba, coco), masque haute hydratation et scellage des pointes. Boucles définies et nourries.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Lissage Brésilien Kératine</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 80€</span>
+                            </div>
+                            <p class="pricing__item-desc">Lissage longue durée (3-4 mois) à la kératine pure. Réduit le volume de 90%, élimine les frisottis, brillance miroir.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Lissage au Tannin</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 90€</span>
+                            </div>
+                            <p class="pricing__item-desc">Alternative naturelle sans formaldéhyde. Lissage doux et progressif qui respecte la structure interne du cheveu.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Botox Capillaire</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 60€</span>
+                            </div>
+                            <p class="pricing__item-desc">Comble les brèches de la fibre capillaire avec un cocktail de vitamines et d'acide hyaluronique. Anti-âge pour vos cheveux.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Soin Réparateur Kératine Express</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 25€</span>
+                            </div>
+                            <p class="pricing__item-desc">Traitement express 20 min pour cheveux fragilisés par la chaleur ou la coloration. Résultat immédiat et visible.</p>
+                        </li>
+                        <li class="pricing__item reveal" data-reveal>
+                            <div class="pricing__item-header">
+                                <h4 class="pricing__item-name">Detox Cuir Chevelu</h4>
+                                <span class="pricing__item-dots"></span>
+                                <span class="pricing__item-price">Dès 30€</span>
+                            </div>
+                            <p class="pricing__item-desc">Gommage enzymatique du cuir chevelu, élimination des résidus de silicone et stimulation de la microcirculation.</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pricing__note reveal" data-reveal>
+                <i class="ti ti-info-circle"></i>
+                <p>Tous les tarifs sont indicatifs et peuvent varier selon la longueur et l'épaisseur des cheveux. Un devis personnalisé vous sera proposé lors du diagnostic capillaire gratuit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- GALLERY / RÉALISATIONS                             -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section id="realisations" class="section gallery">
+        <div class="container">
+            <div class="section__header reveal" data-reveal>
+                <span class="section__tag"><i class="ti ti-photo-star"></i> Portfolio</span>
+                <h2 class="section__title">Nos <span class="gold">Réalisations</span></h2>
+                <p class="section__desc">
+                    Chaque création raconte une histoire. Découvrez le savoir-faire de nos artisans à travers
+                    une sélection de nos plus belles transformations capillaires.
+                </p>
+            </div>
+
+            <!-- Filters -->
+            <div class="gallery__filters reveal" data-reveal>
+                <button class="gallery__filter active" data-filter="all" id="filter-all">Tout</button>
+                <button class="gallery__filter" data-filter="femmes" id="filter-femmes">Coupes Femmes</button>
+                <button class="gallery__filter" data-filter="barber" id="filter-barber">Barber & Fades</button>
+                <button class="gallery__filter" data-filter="soins" id="filter-soins">Soins & Transformations</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery__grid">
+                <figure class="gallery__item reveal" data-reveal data-category="femmes">
+                    <div class="gallery__img-wrap">
+                        <img src="images/gallery-coloration.png" alt="Balayage californien aux reflets caramel et miel réalisé au salon Hair Play Coiffure" loading="lazy" class="gallery__img">
+                    </div>
+                    <figcaption class="gallery__caption">
+                        <h4>Balayage Californien</h4>
+                        <p>Reflets caramel & miel</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery__item reveal" data-reveal data-category="barber">
+                    <div class="gallery__img-wrap">
+                        <img src="images/gallery-fade.png" alt="Dégradé américain mid-fade millimétrique réalisé par nos barbers experts" loading="lazy" class="gallery__img">
+                    </div>
+                    <figcaption class="gallery__caption">
+                        <h4>Dégradé Mid-Fade</h4>
+                        <p>Transition millimétrique</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery__item reveal" data-reveal data-category="soins">
+                    <div class="gallery__img-wrap">
+                        <img src="images/gallery-afro.png" alt="Coiffure afro élégante avec définition de boucles naturelles et hydratation profonde" loading="lazy" class="gallery__img">
+                    </div>
+                    <figcaption class="gallery__caption">
+                        <h4>Afro-Expertise</h4>
+                        <p>Définition & hydratation</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery__item reveal" data-reveal data-category="barber">
+                    <div class="gallery__img-wrap">
+                        <img src="images/gallery-tribal.png" alt="Design tribal artistique gravé au rasoir sur dégradé américain" loading="lazy" class="gallery__img">
+                    </div>
+                    <figcaption class="gallery__caption">
+                        <h4>Design Tribal</h4>
+                        <p>Art gravé au rasoir</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery__item reveal" data-reveal data-category="soins">
+                    <div class="gallery__img-wrap">
+                        <img src="images/gallery-lissage.png" alt="Lissage brésilien à la kératine pour un résultat miroir longue durée" loading="lazy" class="gallery__img">
+                    </div>
+                    <figcaption class="gallery__caption">
+                        <h4>Lissage Brésilien</h4>
+                        <p>Brillance miroir</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery__item reveal" data-reveal data-category="soins">
+                    <div class="gallery__img-wrap">
+                        <img src="images/gallery-soins.png" alt="Soin moléculaire intense pour la reconstruction de la fibre capillaire" loading="lazy" class="gallery__img">
+                    </div>
+                    <figcaption class="gallery__caption">
+                        <h4>Soin Moléculaire</h4>
+                        <p>Reconstruction intense</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- PHILOSOPHIE & FAQ                                  -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section id="philosophie" class="section philosophy">
+        <div class="container">
+            <div class="philosophy__grid">
+                <!-- Story Column -->
+                <div class="philosophy__story reveal" data-reveal>
+                    <span class="section__tag"><i class="ti ti-heart-handshake"></i> Notre Philosophie</span>
+                    <h2 class="section__title">L'Histoire d'une <span class="gold">Passion</span></h2>
+                    <p class="philosophy__text">
+                        Fondé en <strong>2013</strong> au cœur du quartier Flanades à Sarcelles, Hair Play Coiffure est né
+                        d'une vision ambitieuse : créer un espace où <strong>toutes les textures capillaires</strong> sont comprises,
+                        respectées et sublimées avec le même niveau d'excellence.
+                    </p>
+                    <p class="philosophy__text">
+                        Au fil des années, notre salon est devenu une <strong>institution locale</strong>, reconnue pour son
+                        expertise sur les cheveux Afro, Maghrébins et Européens. Nos coiffeurs et barbers sont
+                        régulièrement formés aux <strong>dernières techniques internationales</strong> : dégradés américains
+                        millimétrés, lissages moléculaires de nouvelle génération, colorations botaniques sans
+                        compromis.
+                    </p>
+                    <p class="philosophy__text">
+                        Chez Hair Play, nous croyons que chaque client mérite une <strong>expérience sur-mesure</strong>.
+                        C'est pourquoi chaque visite commence par un diagnostic capillaire personnalisé et se
+                        termine par des conseils d'entretien adaptés. Nous utilisons exclusivement des
+                        <strong>produits professionnels haut de gamme</strong>, sélectionnés pour leur efficacité et
+                        leur respect de la fibre capillaire.
+                    </p>
+
+                    <div class="philosophy__values">
+                        <div class="philosophy__value">
+                            <i class="ti ti-certificate"></i>
+                            <span>Excellence artisanale</span>
+                        </div>
+                        <div class="philosophy__value">
+                            <i class="ti ti-users-group"></i>
+                            <span>Inclusivité absolue</span>
+                        </div>
+                        <div class="philosophy__value">
+                            <i class="ti ti-leaf"></i>
+                            <span>Produits responsables</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Column -->
+                <div class="philosophy__faq reveal" data-reveal>
+                    <h3 class="philosophy__faq-title">Questions Fréquentes</h3>
+
+                    <div class="accordion" id="faq-accordion">
+                        <div class="accordion__item">
+                            <button class="accordion__header" aria-expanded="false" id="faq-btn-1">
+                                <span>Acceptez-vous les clients sans rendez-vous ?</span>
+                                <i class="ti ti-chevron-down accordion__icon"></i>
+                            </button>
+                            <div class="accordion__body" id="faq-body-1">
+                                <p>
+                                    Oui, nous accueillons les clients sans rendez-vous dans la mesure de nos disponibilités.
+                                    Cependant, pour garantir un créneau à l'heure souhaitée et un service sans attente,
+                                    nous recommandons vivement la prise de rendez-vous par téléphone au
+                                    <a href="tel:0134190106">01 34 19 01 06</a>. Les prestations longues (lissages, colorations complexes)
+                                    nécessitent impérativement un rendez-vous préalable.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <button class="accordion__header" aria-expanded="false" id="faq-btn-2">
+                                <span>En quoi consiste le diagnostic capillaire ?</span>
+                                <i class="ti ti-chevron-down accordion__icon"></i>
+                            </button>
+                            <div class="accordion__body" id="faq-body-2">
+                                <p>
+                                    Notre diagnostic capillaire est un examen complet offert avant toute prestation technique.
+                                    Nous analysons la nature de votre cheveu (type, porosité, élasticité, état du cuir chevelu),
+                                    votre historique capillaire (traitements chimiques, colorations antérieures) et vos attentes.
+                                    Ce diagnostic nous permet de vous proposer le protocole de soin ou de coiffure le plus
+                                    adapté, avec les bons produits et les bons gestes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <button class="accordion__header" aria-expanded="false" id="faq-btn-3">
+                                <span>Quels produits professionnels utilisez-vous ?</span>
+                                <i class="ti ti-chevron-down accordion__icon"></i>
+                            </button>
+                            <div class="accordion__body" id="faq-body-3">
+                                <p>
+                                    Nous travaillons exclusivement avec des marques professionnelles reconnues pour leur
+                                    qualité et leur respect de la fibre capillaire. Nos gammes incluent des produits sans sulfate,
+                                    sans parabène et, pour nos lissages au Tannin, sans formaldéhyde. Nous sélectionnons
+                                    chaque produit pour son efficacité sur les textures spécifiques que nous traitons
+                                    (Afro, Maghrébin, Européen). Nos colorations sont enrichies en agents hydratants
+                                    pour protéger le cheveu pendant le processus.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <button class="accordion__header" aria-expanded="false" id="faq-btn-4">
+                                <span>Combien de temps dure un lissage brésilien ?</span>
+                                <i class="ti ti-chevron-down accordion__icon"></i>
+                            </button>
+                            <div class="accordion__body" id="faq-body-4">
+                                <p>
+                                    Un lissage brésilien à la kératine dure en moyenne entre 3 et 4 mois, selon votre type
+                                    de cheveu, la fréquence de vos lavages et les produits d'entretien utilisés. Comptez
+                                    environ 2h à 3h pour la prestation en salon. Le lissage au Tannin offre une durée
+                                    similaire avec une approche plus douce et naturelle. Nous vous remettons un protocole
+                                    d'entretien post-lissage pour prolonger le résultat au maximum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <button class="accordion__header" aria-expanded="false" id="faq-btn-5">
+                                <span>Proposez-vous des prestations pour enfants ?</span>
+                                <i class="ti ti-chevron-down accordion__icon"></i>
+                            </button>
+                            <div class="accordion__body" id="faq-body-5">
+                                <p>
+                                    Absolument ! Nous accueillons les enfants de tous âges dans une ambiance bienveillante
+                                    et ludique. Nos tarifs enfants (–12 ans) sont adaptés : 18€ pour les filles et 12€ pour
+                                    les garçons. Nos coiffeurs savent mettre les plus jeunes à l'aise pour que la coupe
+                                    devienne un moment agréable et non une corvée.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- TESTIMONIALS / AVIS CLIENTS                        -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section id="temoignages" class="section reviews">
+        <div class="container">
+            <div class="section__header reveal" data-reveal>
+                <span class="section__tag"><i class="ti ti-message-star"></i> Témoignages</span>
+                <h2 class="section__title">Ce qu'en Disent <span class="gold">Nos Clients</span></h2>
+                <p class="section__desc">
+                    La satisfaction de nos clients est notre plus belle récompense.
+                    Découvrez les avis authentiques de ceux qui nous font confiance depuis des années.
+                </p>
+            </div>
+
+            <div class="reviews__grid">
+                <article class="review-card reveal" data-reveal>
+                    <div class="review-card__stars">
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                    </div>
+                    <blockquote class="review-card__text">
+                        « Mon barber attitré depuis 5 ans. Les dégradés sont chirurgicaux, millimétrés à la perfection.
+                        L'ambiance est top, l'équipe est au petit soin. Je ne changerais pour rien au monde. »
+                    </blockquote>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar" aria-hidden="true">K</div>
+                        <div class="review-card__info">
+                            <span class="review-card__name">Karim B.</span>
+                            <span class="review-card__meta">Client fidèle — Barber Shop</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal" data-reveal>
+                    <div class="review-card__stars">
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                    </div>
+                    <blockquote class="review-card__text">
+                        « J'ai enfin trouvé un salon qui comprend mes cheveux afro ! Le soin moléculaire a
+                        littéralement transformé ma chevelure. Mes boucles sont définies, brillantes et tellement
+                        plus faciles à coiffer. Merci infiniment ! »
+                    </blockquote>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar" aria-hidden="true">A</div>
+                        <div class="review-card__info">
+                            <span class="review-card__name">Aminata D.</span>
+                            <span class="review-card__meta">Soins Afro & Boucles</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal" data-reveal>
+                    <div class="review-card__stars">
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                    </div>
+                    <blockquote class="review-card__text">
+                        « Le lissage au tannin a changé ma vie. Trois mois sans frisottis, des cheveux brillants
+                        et soyeux au naturel. L'équipe a pris le temps de faire un diagnostic complet avant de
+                        commencer. Professionnalisme exemplaire. »
+                    </blockquote>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar" aria-hidden="true">S</div>
+                        <div class="review-card__info">
+                            <span class="review-card__name">Sofia M.</span>
+                            <span class="review-card__meta">Lissage au Tannin</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal" data-reveal>
+                    <div class="review-card__stars">
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                    </div>
+                    <blockquote class="review-card__text">
+                        « Super balayage ! Les reflets sont naturels et lumineux, exactement ce que je voulais.
+                        La coiffeuse a su écouter mes envies et me conseiller sur les teintes qui conviendraient
+                        le mieux à mon teint. Je recommande à 200%. »
+                    </blockquote>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar" aria-hidden="true">L</div>
+                        <div class="review-card__info">
+                            <span class="review-card__name">Laura P.</span>
+                            <span class="review-card__meta">Balayage & Coloration</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal" data-reveal>
+                    <div class="review-card__stars">
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                    </div>
+                    <blockquote class="review-card__text">
+                        « J'emmène mon fils de 8 ans ici depuis 3 ans. L'équipe est vraiment patiente et adorable
+                        avec les enfants. Le petit repart toujours avec un sourire jusqu'aux oreilles et un dégradé
+                        parfait. Prix très correct en plus. »
+                    </blockquote>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar" aria-hidden="true">M</div>
+                        <div class="review-card__info">
+                            <span class="review-card__name">Mehdi R.</span>
+                            <span class="review-card__meta">Papa fidèle — Coupe enfant</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal" data-reveal>
+                    <div class="review-card__stars">
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-filled"></i>
+                        <i class="ti ti-star-half-filled"></i>
+                    </div>
+                    <blockquote class="review-card__text">
+                        « Salon très propre, ambiance chaleureuse et prestations de qualité. Mon chignon de mariage
+                        était absolument magnifique, j'ai reçu des compliments toute la soirée. L'essai préalable
+                        m'avait vraiment rassurée. Merci ! »
+                    </blockquote>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar" aria-hidden="true">F</div>
+                        <div class="review-card__info">
+                            <span class="review-card__name">Fatou N.</span>
+                            <span class="review-card__meta">Coiffure de mariage</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- CTA FINAL                                          -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <section class="section cta-final">
+        <div class="container">
+            <div class="cta-final__content reveal" data-reveal>
+                <h2 class="cta-final__title">Prêt(e) à Révéler Votre <span class="gold">Meilleur Style</span> ?</h2>
+                <p class="cta-final__desc">
+                    Réservez votre créneau dès maintenant et offrez-vous une expérience capillaire d'exception
+                    dans notre salon premium de Sarcelles.
+                </p>
+                <div class="cta-final__actions">
+                    <a href="tel:0134190106" class="btn btn--primary btn--lg">
+                        <i class="ti ti-phone"></i>
+                        <span>Appeler le 01 34 19 01 06</span>
+                    </a>
+                    <a href="https://maps.google.com/?q=95+Avenue+Paul+Valéry+Sarcelles" target="_blank" rel="noopener" class="btn btn--outline btn--lg">
+                        <i class="ti ti-map-pin"></i>
+                        <span>Nous Localiser</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════ -->
+    <!-- FOOTER                                             -->
+    <!-- ═══════════════════════════════════════════════════ -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__grid">
+                <!-- Col 1: Brand -->
+                <div class="footer__col">
+                    <a href="#" class="footer__logo">
+                        <span class="footer__logo-icon"><i class="ti ti-scissors"></i></span>
+                        <span class="footer__logo-text">Hair Play <span class="gold">Coiffure</span></span>
+                    </a>
+                    <p class="footer__about">
+                        Salon de coiffure premium et Barber Shop d'exception à Sarcelles.
+                        Expertise multi-textures, soins moléculaires et créations artistiques depuis 2013.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Instagram Hair Play Coiffure"><i class="ti ti-brand-instagram"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="Facebook Hair Play Coiffure"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="TikTok Hair Play Coiffure"><i class="ti ti-brand-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Contact -->
+                <div class="footer__col">
+                    <h4 class="footer__heading">Contact</h4>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <i class="ti ti-map-pin"></i>
+                            <span>95 Avenue Paul Valéry<br>95200 Sarcelles — Zone Flanades</span>
+                        </li>
+                        <li class="footer__list-item">
+                            <i class="ti ti-phone"></i>
+                            <a href="tel:0134190106">01 34 19 01 06</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <i class="ti ti-mail"></i>
+                            <a href="mailto:contact@hairplaycoiffure.fr">contact@hairplaycoiffure.fr</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Horaires -->
+                <div class="footer__col">
+                    <h4 class="footer__heading">Horaires d'Ouverture</h4>
+                    <ul class="footer__list footer__hours">
+                        <li class="footer__list-item">
+                            <span class="footer__day">Lundi</span>
+                            <span class="footer__time footer__time--closed">Fermé</span>
+                        </li>
+                        <li class="footer__list-item">
+                            <span class="footer__day">Mardi</span>
+                            <span class="footer__time">9h00 — 19h00</span>
+                        </li>
+                        <li class="footer__list-item">
+                            <span class="footer__day">Mercredi</span>
+                            <span class="footer__time">9h00 — 19h00</span>
+                        </li>
+                        <li class="footer__list-item">
+                            <span class="footer__day">Jeudi</span>
+                            <span class="footer__time">9h00 — 19h00</span>
+                        </li>
+                        <li class="footer__list-item">
+                            <span class="footer__day">Vendredi</span>
+                            <span class="footer__time">9h00 — 20h00</span>
+                        </li>
+                        <li class="footer__list-item">
+                            <span class="footer__day">Samedi</span>
+                            <span class="footer__time">8h00 — 19h00</span>
+                        </li>
+                        <li class="footer__list-item">
+                            <span class="footer__day">Dimanche</span>
+                            <span class="footer__time footer__time--closed">Fermé</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Navigation -->
+                <div class="footer__col">
+                    <h4 class="footer__heading">Navigation</h4>
+                    <ul class="footer__list">
+                        <li><a href="#espace" class="footer__nav-link">Nos Espaces</a></li>
+                        <li><a href="#tarifs" class="footer__nav-link">Grille Tarifaire</a></li>
+                        <li><a href="#realisations" class="footer__nav-link">Nos Réalisations</a></li>
+                        <li><a href="#philosophie" class="footer__nav-link">Notre Philosophie</a></li>
+                        <li><a href="#temoignages" class="footer__nav-link">Avis Clients</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copy">&copy; 2013 — 2026 Hair Play Coiffure. Tous droits réservés.</p>
+                <div class="footer__legal">
+                    <a href="#">Mentions Légales</a>
+                    <a href="#">Politique de Confidentialité</a>
+                    <a href="#">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
